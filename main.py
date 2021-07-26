@@ -2,34 +2,34 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 #sets starting values of words and "guesses"
-word = "apply"
+word = "kubectl apply"
 guess = ""
 #sets a while loop so that as long as the question remains incorrect, it will keep asking
 while guess != word:
     guess = input(word +":")
 
 #sets next word
-word = "get"
+word = "kubectl get"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
 #sets next word
-word = "get pods"
+word = "kubectl get pods"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
 #sets next word
-word = "get nodes"
+word = "kubectl get nodes"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
 #sets next word
-word = "apply"
+word = "kubectl apply"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
 #sets next word
-word = "get"
+word = "kubectl get"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
