@@ -33,6 +33,18 @@ word = "get"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
+word = "kubectl rollout"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+word = "kubectl expose"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+word = "kubectl label"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
 
 
 
