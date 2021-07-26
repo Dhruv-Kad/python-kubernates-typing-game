@@ -33,6 +33,7 @@ word = "get"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
+#sets next word
 word = "kubectl rollout"
 #Same loop as before
 while guess != word:
@@ -41,10 +42,77 @@ word = "kubectl expose"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
+#Sets next word
 word = "kubectl label"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
+#Sets next word
+word = "kubectl annotate"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl get"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl rollout"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl patch pod"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl patch node"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl patch pod"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl patch deployment"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl edit"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl rollout"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl scale"
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+#Sets next word
+word = "kubectl "
+#Same loop as before
+while guess != word:
+    guess = input(word +":")
+
+
+
+
+
+
+
+
+
+
+
 
 
 
