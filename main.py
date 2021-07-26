@@ -162,7 +162,7 @@ word = "kubectl top"
 #Same loop as before
 while guess != word:
     guess = input(word +":")
-    #May add more, including accuracy score and wpm counter later.
+    #May add more, including accuracy score and wpm counter in the future.
 
 
 
