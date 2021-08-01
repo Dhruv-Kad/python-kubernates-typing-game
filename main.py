@@ -1,8 +1,9 @@
 #List of questions that will be asked
 question_grid = ["kubectl rollout", "kubectl get nodes", "kubectl apply", "kubectl expose",
                  "kubectl get", "kubectl patch", "kubectl delete", "kubectl apply" ]
-
+question_grid_test = ["kubectl rollout", "kubectl get pods"]
 #function that asks the questions
+print("There are " + str(len(question_grid)) + " questions in this set")
 def asker():
     c = 0
     for str in question_grid:
@@ -12,7 +13,7 @@ def asker():
             c += 1
 
         else:
-            print(".")
+            print("incorrect")
 #returns number of correct ans
     return c
 #asks the number of attempts the user wants
@@ -25,14 +26,15 @@ permanantattempts = attempts
 while attempts > 0:
     result = asker()
     attempts -= 1
+
     # when attemps are zero it prints the percent correct
     if attempts == 0:
-        #gets value of corrent answers minus
-        per = str(result / (len(question_grid) * permanantattempts) * 100)
-        print(per + "%")
-    #will remove in later versions, it is just there to make testing a bit easier
+        print("over")
+
     else:
-        print("new attempt")
+        # gets value of corrent answers minus
+        per = str(result / len(question_grid) * 100)
+        print("you got " + per + "% right on attempt number " + str(attempts))
 
 
 
