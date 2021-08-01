@@ -29,12 +29,15 @@ while attempts > 0:
 
     # when attemps are zero it prints the percent correct
     if attempts == 0:
+        per = str(result / len(question_grid) * 100)
+        print("you got " + per + "% right on attempt number " + str(attempts + 1))
         print("over")
+
 
     else:
         # gets value of corrent answers minus
         per = str(result / len(question_grid) * 100)
-        print("you got " + per + "% right on attempt number " + str(attempts))
+        print("you got " + per + "% right on attempt number " + str(attempts + 1))
 
 
 
